@@ -3,9 +3,3 @@ server:
 spring:
   application:
     name: CONFIGCLIENT
-  cloud:
-    consul:
-      host: localhost  # 服务注册地址
-      port: 8500       # 服务注册端口
-      discovery:
-        service-name: ${spring.application.name}   # 注册服务名称
